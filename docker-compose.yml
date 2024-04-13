@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  genea-app:
+    image: natget21/genea-app:latest
+    container_name: genea-app
+    ports:
+      - 1357:80
